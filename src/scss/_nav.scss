@@ -1,0 +1,21 @@
+.navbar {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    
+    ._ul {
+        
+        display: flex;
+        flex-direction: row;
+        padding-left: 2vh;
+
+        ._link {
+            text-decoration: none;
+            color: white;
+            font-size: 3vh;
+            padding: 0 2vh;
+
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/rey-standing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  padding: 2vh;
+
+  ._h2 {
+    font-size: 5vh;
+  }
+
+  ._imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: auto;
+    padding-top: 30vh;
+  }
+
+  ._small {
+    height: 10vh;
+    border-radius: 50%;
+  }
+
+  ._medium {
+    height: 15vh;
+    border-radius: 50%;
+  }
+  ._big {
+    height: 20vh;
+    border-radius: 50%;
+  }
+  ._large {
+    height: 25vh;
+    border-radius: 50%;
+  }
+}

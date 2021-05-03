@@ -1,0 +1,96 @@
+.cast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding: 2vh;
+
+  ._h2 {
+    font-size: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  ._mark {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+
+    img {
+      padding-left: 30vh;
+    }
+
+    ._text {
+      display: flex;
+      flex-direction: column;
+      padding-left: 5vh;
+      padding-right: 20vh;
+    }
+  }
+
+  ._pictures {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    color: white;
+
+    ._picture1 {
+      background-image: url(../img/fisher.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    ._picture2 {
+      background-image: url(../img/driver.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    ._picture3 {
+      background-image: url(../img/ridley.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    ._picture4 {
+      background-image: url(../img/boyega.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    ._picture5 {
+      background-image: url(../img/isaac.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    ._picture6 {
+      background-image: url(../img/serkis.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 20vh;
+      width: 10vh;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}

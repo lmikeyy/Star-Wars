@@ -1,0 +1,12 @@
+.hero {
+    background-image: url(../img/welcome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    font-size: 5vh;
+}

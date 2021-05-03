@@ -1,0 +1,52 @@
+.ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+
+  ._h2 {
+    font-size: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  ._score {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    ._score1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      ._score01 {
+        width: 20vh;
+        height: 30vh;
+        background-color: gray;
+      }
+    }
+    ._score2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10vh;
+
+      ._score02 {
+        width: 20vh;
+        height: 40vh;
+        background-color: gray;
+      }
+    }
+    ._score3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      ._score03 {
+        width: 20vh;
+        height: 35vh;
+        background-color: gray;
+      }
+    }
+  }
+}
